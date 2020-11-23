@@ -197,7 +197,7 @@
 #page-estabelecimento .estabelecimento-details .estabelecimento-details-content button.contact-button:hover {
 	background-color: #36cf82;
 }
-#page-estabelecimento .estabelecimento-details .estabelecimento-details-content div.contact-button {
+#page-estabelecimento .estabelecimento-details .estabelecimento-details-content a.contact-button {
 	align-items: center;
 	background-color: #3cdc8c;
 	border: 0;

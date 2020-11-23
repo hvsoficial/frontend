@@ -116,11 +116,11 @@ const Estabelecimento: React.FC = () => {
 						
 						{estabelecimento.zap
 								? (
-									 <div className="contact-button">
+									<a href={`http://wa.me/${estabelecimento.telefone}`} className="contact-button">
 										<FaPhone size={20} color="#fff" />
 										<FaWhatsapp size={20} color="#fff" />
                 							 Entrar em contato : {estabelecimento.telefone}
-           							 </div> 
+										</a> 
 								) : (
 									<div className="contact-button-phone">
 										<FaPhone size={20} color="#fff" />
